@@ -34,8 +34,8 @@ void compute_derivatives(double V, double Ca, double T, double Tj, double d[]) {
     }
     double FJ = 49.9 - Kc*(600 - T);
     d[0] = F0 - (10 * V - 440);
-    d[1] = F0 * CA0 - (10 * V - 440) * Ca - k * V * Ca;
-    d[2] = (F0 * T0 - (10 * V - 440) * T + (30000 * V * k * Ca - U * AH * (T - Tj)) / (rho * CP + EPSILON));
+    d[1] = (F0 * CA0 - (10 * V - 440) * Ca - k * V * Ca)/V;
+    d[2] = ((F0 * T0 - (10 * V - 440) * T + (30000 * V * k * Ca - U * AH * (T - Tj)) / (rho * CP + EPSILON)))/V;
     d[3] = (FJ / VJ) * (TJ0 - Tj) + (U * AH * (T - Tj)) / (rhoJ * VJ * CJ + EPSILON);
 }
 
