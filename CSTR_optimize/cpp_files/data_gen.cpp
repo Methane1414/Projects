@@ -35,8 +35,8 @@ int main(){
     //Random number Generation
     random_device rd;
     mt19937 gen(rd());
-    uniform_real_distribution<> dist_F_A0(0.1, 4.0);  // Inlet flow rate in (L/s)
-    uniform_real_distribution<> dist_T(300, 600);     // Temperature in (K)
+    uniform_real_distribution<> dist_F_A0(0.1, 10.0);  // Inlet flow rate in (L/s)
+    uniform_real_distribution<> dist_T(300, 1000);     // Temperature in (K)
     uniform_real_distribution<> dist_tau(0, 10.0);  // Residence time in (s)
 
     int samples=1000;
