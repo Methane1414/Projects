@@ -31,7 +31,7 @@ This repository contains a collection of chemical engineering-related projects, 
 *   **Key Files:**
     *   `PINN.py`: Python script defining and training the PINN model.
          XGB.py :  Python script for implementation of XGBoost for data based optimization using only data analysis
-*   **Status:** Based on the error messages, this project is still under development.Simpler version is up and running.The goal is to create a model that respects physical laws to make accurate predictions.
+*   **Status:** this project is still under development.Simpler version is up and running.The goal is to create a model that respects physical laws to make accurate predictions.
 * *The most stable, functional code must always be made available first.*
 
 ### 5. ZLD
@@ -48,6 +48,10 @@ This repository contains a collection of chemical engineering-related projects, 
 ### 7. dynamic_CSTR:
 
 *   **Description:** Analysis of CSTR with emphasis on changes and how those impact its operation.
+  
+### 8. CFD:
+
+*   **Description:** Numerical Simulation of turbulence model (k-epsilon model) in C++ and comparison with 1/7th power law model in python. 
 
 ## Disclaimer
 
