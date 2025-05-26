@@ -10,11 +10,11 @@ k_cpp = data["k"]
 eps_cpp = data["epsilon"]
 
 # Free-stream velocity
-U_inf = 10.0  # m/s
+U_infinity = 10.0  # m/s
 
 # Empirical 1/7th power law for velocity profile (Turbulent Boundary Layer Approximation)
 def velocity_profile_empirical(y, delta):
-    return U_inf * (y / delta) ** (1 / 7)
+    return U_infinity * (y / delta) ** (1 / 7)
 
 # Generate empirical velocity profile
 delta = max(x)  # Assume boundary layer thickness is plate length
