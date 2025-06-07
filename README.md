@@ -51,7 +51,11 @@ This repository contains a collection of chemical engineering-related projects, 
   
 ### 8. CFD:
 
-*   **Description:** Numerical Simulation of turbulence model (k-epsilon model) in C++ and comparison with 1/7th power law model in python. 
+*   **Description:** Numerical Simulation of turbulence model (k-epsilon model) in C++ and comparison with 1/7th power law model in python.
+
+### 9. 1D Advection Equation:
+
+* **Description:** Implementation of numerical schemes Upwind and Lax Wendroff to solve Linear Transport Problem for smooth and non-smooth initial conditions. Error Estimates using L2 Norm and Experimental order of convergence is also determined for various mesh resolution. Csv file is generated in cpp code which is accessed by python code for plotting.
 
 ## Disclaimer
 
